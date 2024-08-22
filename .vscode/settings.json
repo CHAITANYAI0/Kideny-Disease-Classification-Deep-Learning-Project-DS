@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/cnnClassifier/components/model_evaluation_"
+    ]
+}
