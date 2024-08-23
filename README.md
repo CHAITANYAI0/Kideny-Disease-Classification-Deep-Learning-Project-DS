@@ -61,18 +61,18 @@ open up you local host and port
 
 ### dagshub
 [dagshub](https://dagshub.com/)
-
+```bash
 import dagshub
 dagshub.init(repo_owner='susmiti63',
              repo_name='Kideny-Disease-Classification-Deep-Learning-Project-DS',
              mlflow=True)
 
-import mlflow
+import mlflow\
 with mlflow.start_run():
   mlflow.log_param('parameter name', 'value')
   mlflow.log_metric('metric name', 1)
 Run this to export as env variables:
-
+```
 
 
 ### DVC cmd
